@@ -1,0 +1,29 @@
+HCI (Human Computer Interaction)의 변화
+- CLI : command-line interface
+- GUI : graphical user interface
+- UX : user experience
+HCI를 통해서 컴퓨터를 동작 시킨다
+
+Debugger 다른 Process를 침범할수 있는 권한이 있다
+Debugger 악용하면 해킹이 된다
+Debugger  = privilege level software(권한 수준 소프트웨어)
+
+입출력의 주체는 Kernel이다
+
+user 수준에서는
+Kernel 수준을 건들지 못한다
+오직 File을 통해서 건들수 있다
+File(Socket) <- Write 정보(고유한규칙 , Protocol)
+이를 가능하게 하는 요청 함수가
+getchar( ) // 읽기
+putchar( ) // 쓰기
+
+Buffer(Memory)에서
+데이터를 write 한다 = 데이터를 write해서 Kernel에 보낸후 H/W 처리한다
+데이터를 Read 한다 = Buffer안에 있는 단어중 필요한 단어는 퍼올린다, 가져온다
+
+Buffer(완충기)  = Memory
+Buffering
+데이터를 불러올때 Buffer에 담겨서 데이터를 가져오는데
+Buffer안에 일정 데이터가 쌓이고 User가 데이터를 사용하는데
+데이터를 가져오는 속도보다 사용하는 속도가 빠르면 버퍼링이 생긴다
