@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(void)
+int main1(void)
 {
 	123.0;		//double;
 	123.0f;		//float;

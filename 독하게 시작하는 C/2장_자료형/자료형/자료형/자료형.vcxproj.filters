@@ -21,6 +21,9 @@
     <ClCompile Include="02.문자%28배%29열.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="integer.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\..\..\2장_자료형\자료형\자료형.sln" />

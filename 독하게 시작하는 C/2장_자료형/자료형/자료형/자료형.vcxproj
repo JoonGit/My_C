@@ -129,6 +129,7 @@
   <ItemGroup>
     <ClCompile Include="02.문자%28배%29열.c" />
     <ClCompile Include="01.부동소수.c" />
+    <ClCompile Include="integer.c" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\..\..\2장_자료형\자료형\자료형.sln" />

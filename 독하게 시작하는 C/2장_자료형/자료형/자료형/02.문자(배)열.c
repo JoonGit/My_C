@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(void)
+int main2(void)
 {
 	char a = 'a';
 	printf("%c\n", a); // 'a'
