@@ -5,18 +5,25 @@
 메모리 지정은 자동화 되어있다
 변수선언시 메모리확보 후 주소를 컴파일러가 지정하게 된다
 
-메모리 저장 방식
-Byte order 형식으로 저장한다
-주소 번시장 낮은쪽이 왼쪽으로 가는것을 Litttle Endian 이라고 한다
+*메모리의 저장 방식
+Byte order 형식 Litttle Endian 으로 저장한다
+16진수 표기에서 낮은쪽이 높은쪽으로 변경하여 저장 하는 방법 
+Litttle Endian 형식으로 저장된다
 반대 개념엔 Big Endian이 있다
 
-ASLR(ddress Space Layout Randomization)
+*ASLR(ddress Space Layout Randomization)
 메모리 해킹 방지를위해
 프로그램을 실행 할때마다 매번 주소영역이 변경 된다
 
-변수 = '메모리'로 구현 &주소 -> Compile time 연산(CPU 소모를 계속하지 않는다)
+*변수 = '메모리'로 구현 &주소 -> Compile time 연산(CPU 소모를 계속하지 않는다)
 
-* 이건 간접지정
+간접지정 = 포인터
+포인터는 데이터는 
+변수의 주소값을 Litttle Endian 형식으로 저장한다
+포인터의 자료형식은
+데이터에 담겨진 주소 값의 크기를 포인터의 자료형식으로 보겠다는 뜻이다
+
+
 포인터에 x 변수의 주소값을 넣는다
 그리고 값(x변수의 주소값)을 +y 한다
 그러면 포인터가 의 주소값 위치가 &x + y  위치 값이 있다

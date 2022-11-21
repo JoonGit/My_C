@@ -1,15 +1,18 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 int main(void) {
-	int aList[5] = { 40, 20 ,50, 30, 10 };
-	int nTotal = 0;
+	//char name[12] = { "¿Ã¿Á¡ÿ" };
+	//char *pNname = name;
+	//printf("%s", pNname);
 
-	int *pnData = aList;
-	pnData = aList + 5;
-	printf("%p", pnData);
-	//while (pnData < aList + 5) {
-	//	nTotal += *pnData;
-	//	pnData++;
-	//}
+	char *pList = NULL;
+
+	pList = malloc(sizeof(char) * 12);
+
+	pList[0] = 'A';
+	pList[2] = 'B';
+	pList[3] = 'C';
+
 	return 0;
 }
