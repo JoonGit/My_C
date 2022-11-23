@@ -1,5 +1,5 @@
 메모리 특징(구조 + 관리) ->
-지정 -> 직접기정   -> 변수선언 -> 변수선언(메모리)
+지정 -> 직접지정   -> 변수선언 -> 변수선언(메모리)
       -> 간접지정
 
 메모리 지정은 자동화 되어있다
@@ -11,7 +11,7 @@ Byte order 형식 Litttle Endian 으로 저장한다
 Litttle Endian 형식으로 저장된다
 반대 개념엔 Big Endian이 있다
 
-*ASLR(ddress Space Layout Randomization)
+*ASLR(adress Space Layout Randomization)
 메모리 해킹 방지를위해
 프로그램을 실행 할때마다 매번 주소영역이 변경 된다
 
