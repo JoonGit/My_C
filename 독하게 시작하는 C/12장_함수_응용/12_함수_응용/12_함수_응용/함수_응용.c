@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
 void Swap(int* nLeft, int* nRight);
 char* GetName(void);
@@ -42,13 +43,23 @@ int main(int argc, char* argv[]) {
 	//PutData("TestData");
 	//putchar('\n');
 
-	char szPath[128] = { "C:\\Program Files\\" };
+	//char szPath[128] = { "C:\\Program Files\\" };
+	//char szBuffer[128] = { 0 };
+	//printf("Input path: ");
+	//gets(szBuffer);
+
+	//strncat(szPath, szBuffer);
+	//puts(szPath);
+
+	char szPath[128] = { 0 };
 	char szBuffer[128] = { 0 };
+
 	printf("Input path: ");
 	gets(szBuffer);
 
-	strcat(szPath, szBuffer);
+	snprintf(szPath, "C:\\Program Files\\%s", szBuffer);
 	puts(szPath);
+
 
 	return 0;
 }
