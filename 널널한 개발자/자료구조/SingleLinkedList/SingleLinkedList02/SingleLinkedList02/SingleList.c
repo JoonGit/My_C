@@ -109,25 +109,69 @@ void ReleaseData()
 
 }
 
-NODE* Pop() {
+int Pop(NODE* pPopData) {
 	NODE* pTmp = g_List.next; // g_List 의 첫번째 데이터
-	NODE* pDelete = pTmp; // 삭제용 데이터
-	pTmp = pTmp->next;
-	printf("담겨진 데이터 : %d\n", pTmp->nData);
-	printf("데이터 삭제 : %d\n", pDelete->nData);
-	free(pDelete);
-	return pTmp;
-	
+
+	if (IsEmpty())
+		return 0;
+
+	memcpy_s(pPopData,sizeof(NODE), pTmp, sizeof(NODE)); // pPopData에 pTmp 복사
+
+	g_List.next = pTmp->next;
+	free(pTmp);
+	return 1;	
 }
+
+//Rear
+void Rear(int FrontData)
+{
+	InsertAtTail(FrontData);
+}
+
+//Front
+int Front(NODE* pFrontData)
+{
+	NODE* pTmp = g_List.next;
+	if (IsEmpty())
+		return 0;
+
+	memcpy_s(pFrontData, sizeof(NODE), pTmp, sizeof(NODE)); // pPopData에 pTmp 복사
+
+	g_List.next = pTmp->next;
+	free(pTmp);
+	return 1;
+}
+
 int main() {
 	
+	//stack 구현
 	InsertAtHead(1);
 	InsertAtHead(2);
 	InsertAtHead(3);
 	//PrintList();
-	NODE* popData1 = Pop();
-	NODE* popData2 = Pop();
-	NODE* popData3 = Pop();
+	NODE popData = { 0 };
+	Pop(&popData);
+	printf("%d\n", popData.nData);
+	Pop(&popData);
+	printf("%d\n", popData.nData);
+	Pop(&popData);
+	printf("%d\n", popData.nData);
+	PrintList();
+
+	//Queue 구현
+	//Rear(1);
+	//Rear(2);
+	//Rear(3);
+	//PrintList();
+	//NODE FrontData = { 0 };
+
+	//Front(&FrontData);
+	//printf("%d\n", FrontData.nData);
+	//Front(&FrontData);
+	//printf("%d\n", FrontData.nData);
+	//Front(&FrontData);
+	//printf("%d\n", FrontData.nData);
+	//PrintList();
 
 	
 	return 0;
