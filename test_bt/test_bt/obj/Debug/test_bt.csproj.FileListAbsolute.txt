@@ -1,0 +1,8 @@
+D:\C#\My_C\My_C\test_bt\test_bt\obj\Debug\test_bt.csproj.AssemblyReference.cache
+D:\C#\My_C\My_C\test_bt\test_bt\obj\Debug\test_bt.csproj.SuggestedBindingRedirects.cache
+D:\C#\My_C\My_C\test_bt\test_bt\obj\Debug\test_bt.csproj.CoreCompileInputs.cache
+D:\C#\My_C\My_C\test_bt\test_bt\bin\Debug\test_bt.exe.config
+D:\C#\My_C\My_C\test_bt\test_bt\bin\Debug\test_bt.exe
+D:\C#\My_C\My_C\test_bt\test_bt\bin\Debug\test_bt.pdb
+D:\C#\My_C\My_C\test_bt\test_bt\obj\Debug\test_bt.exe
+D:\C#\My_C\My_C\test_bt\test_bt\obj\Debug\test_bt.pdb

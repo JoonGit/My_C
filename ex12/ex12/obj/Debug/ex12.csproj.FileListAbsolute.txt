@@ -1,0 +1,8 @@
+D:\C#\My_C\My_C\ex12\ex12\bin\Debug\ex12.exe.config
+D:\C#\My_C\My_C\ex12\ex12\bin\Debug\ex12.exe
+D:\C#\My_C\My_C\ex12\ex12\bin\Debug\ex12.pdb
+D:\C#\My_C\My_C\ex12\ex12\obj\Debug\ex12.csproj.AssemblyReference.cache
+D:\C#\My_C\My_C\ex12\ex12\obj\Debug\ex12.csproj.SuggestedBindingRedirects.cache
+D:\C#\My_C\My_C\ex12\ex12\obj\Debug\ex12.csproj.CoreCompileInputs.cache
+D:\C#\My_C\My_C\ex12\ex12\obj\Debug\ex12.exe
+D:\C#\My_C\My_C\ex12\ex12\obj\Debug\ex12.pdb
