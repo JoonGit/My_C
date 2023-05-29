@@ -1,0 +1,19 @@
+*RPM 옵션
+-i : 설치시 옵션
+-v : 설치시 상세 내용 출력
+-h : 설치시 progress를 #으로 표시
+-u : 업그레이드
+-e : gkrwp
+-p : 패키지 정보 확인
+-F 기존패키지가 있는 경우에만 설치
+--nodeps: 의존성 관계 무시하고 설치/제거
+--force: 기존에 패키지 설치 여부 관계없이 강제로 설치/제거(--replacepkgs, --replacefiles, --oldpackage 모두 합친 것)
+
+*yum
+yum remove - 패키지 제거
+yum install - 설치 명령어
+
+*패키지 관리도구 (기본 / 온라인)
+래드햇 - RPM / YUM
+데ql안 - Dpkg / apt-get
+수세 = Yast / zypper

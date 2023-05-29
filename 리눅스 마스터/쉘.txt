@@ -1,0 +1,39 @@
+Bourne Shell - sh
+- 최초의 유닉스 쉘
+- 스티브 본 제작
+
+bash (1989)
+- 리눅스 표준 쉘
+- 브라이언 폴스
+
+C shlee - csh (1978)
+- 빌조이(vi도 만들었다)
+
+korn shell - ksh (데이비드 콘)
+
+*쉘 명령어
+unset- 셸 변수 해제
+user=lin <지역변수에 담음
+USER=lin <전역변수에 담음
+env: 글로벌 셸 변수 조회 명령어
+set: 로컬 셸 변수 조회 명령어. 셸 환경을 설정할 수 있는 옵션 존재
+echo &user < 지역변수에 담겨져있는걸 호출함
+echo &USER < 전역변수에 담겨져있는걸 호출함
+ps(Process Status) : 사용자 로그인 후 사용중인 쉘 확인
+HISTSIZE : 히스토리(history) 크기 지정
+HISTFILESIZE : 히스토리(history) 파일 크기
+
+*쉘 파일
+/etc/shells
+: 사용 가능한 셸 목록을 저장하고 있는 파일
+/etc/bashrc
+- 별칭(alias)과 bash가 수행될 때 실행되는 함수 제어와 관련된 설정 값을 저장하고 있는 파일
+- 배쉬가 수행될때 실행되는 함수를 제어하는 지역적인 시스템 설정과 관련된 파일.
+/etc/passwd
+-리눅스 계정 정보를 저장하고 있는 파일
+/etc/profile
+- 환경 변수와 bash가 수행될 때 실행되는 프로그램 제어와 관련된 설정 값을 저장하고 있는 파일
+- bash_profile = 환경변수 PATH관리 
+
+
+

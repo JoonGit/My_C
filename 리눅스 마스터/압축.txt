@@ -1,0 +1,7 @@
+.bz2 > jxvf
+.xz > Jxvf
+.gz > zxvf
+compress > Zxvf
+
+-c : 파일이나 디렉터리를 묶는것
+-C : 디렉터리 변경

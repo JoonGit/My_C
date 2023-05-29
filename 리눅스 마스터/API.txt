@@ -1,0 +1,24 @@
+프린터관련 : LPRng, CUPS
+LPRng : 리눅스 초기 인쇄 시스템, 
+버클리 프린팅 시스템, 
+BSD 계열 유닉스에서 사용
+
+CUPS(Common Unix Printing System) : 
+클라이언트와 프린터서버로 구성되어 있는 
+리눅스/유닉스 호환 운영체제를 위한 모듈러 프린팅 시스템. 
+애플이 개발. HTTP 기반의 IPP
+*IPP(Internet Printing Protocol)
+
+사운드카드 : OSS, ALSA
+OSS - 리눅스, 유닉스 계열 사운드 카드 지원 시스템
+ALSA - 사운드 카드용 장치 드라이버
+
+스캐너 : SANE, XSANE
+SANE(Scanner Access Now Easy)
+:스캐너, 비디오 캠 등 이미지 관련 API
+
+프린터 설정
+레드햇 계열 초기 LPRng : printtool이나 printconf
+CentOS 프린터 설정 : system-config-printer
+최근 레드헷 계열 : redhat-config-printer > system-config-printer
+
