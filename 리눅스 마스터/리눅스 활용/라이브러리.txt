@@ -1,0 +1,12 @@
+*라이브러리
+Qt
+GUI 프로그램 개발에 널리 쓰이는 크로스 플랫폼 프레임워크
+Xlib 1985년
+수많은 유닉스 계열 운영 체제의 GUI에 사용
+XCB(X protocol C-language Binding) 
+컴퓨팅에서 X 윈도 시스템을 위한 C 언어 결합
+GTK (GIMP Toolkit)
+초기에 김프를 위해서 만든 툴킷이었으며 
+X 윈도 시스템을 위한 위젯 툴킷 가운데 하나
+GNOME(GNU Network Object Model Environment)
+데스크톱 프로그램 집합의 일종 이를 개발하는 프로젝트의 이름

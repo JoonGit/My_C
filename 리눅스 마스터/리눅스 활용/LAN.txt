@@ -1,0 +1,49 @@
+*LAN 케이블 규격
+CAT-5 : 대역폭 100MHz, 전송 속도 100Mbps
+CAT-5E : 대역폭 100MHz, 전송 속도 1Gbps
+CAT-6 : 대역폭 250MHz, 전송 속도 1Gbps
+CAT-7 : 대역폭 600MHz, 전송 속도 10Gbps
+
+*통신망
+Token Ring : 
+IBM에 의해 개발, 
+데이터 전송을 위해 네트워크 채널을 사용하려면 
+일종의 사용권을 획득해야 한다
+
+Ethernet : 
+데이터 전송을 위해 네트워크 채널을 사용하려면 일종의 사용권을 획득해야 한다
+MAC 주소를 기반으로 상호간에 데이터를 주고받을 수 있도록 설계되었다.
+X.25 : 
+WAN 상에서 널리 쓰이는 프로토콜. 
+최근에는 X.25를 기반으로 하는 프레임릴레이(Frame Relay)가 나왔다
+패킷망에서 DCE(회선 종단 장치)와 DTE(데이터 단말 장치) 사이에 이루어지는 상호 작용을 규정한 프로토콜
+
+FDDI : 
+광섬유 케이블을 사용하여 설계된 링 구조의 통신망. 
+엑세스 제어는 토큰 패싱 방법 채택
+
+
+*프로토콜
+CSMA/CD : Carrier Sense Multiple Access/ Collision Detection
+          단말기가 전송로의 신호 유무를 조사하고 다른 단말기가 신호를 송출하는지 확인한다.
+          이더넷
+FDDI : Fiber-Distributed Data Interface
+       LAN상의 고속스테이션을 연결 또는 백본방 연결 시 사용
+       Dual-ring 구조 : 데이터 전송 링과 백업용 링
+DQDB : Distributed Queue Dual Bus
+       MAN에서 사용되는 IEEE 802.6 규격인 QPSX(Queued Packet Synchronous Exchange)의 제어접속에 사용
+       Dual-bus 구조 : 각 버스는 단방향이며 버스의 헤드부분에는 53바이트의 슬롯 생성기가 있다.
+
+*통신망
+1. Token Ring : IBM에 의해 개발, 데이터 전송을 위해 네트워크 채널을 사용하려면 일종의 사용권을 획득해야 한다
+2. Ethernet : 데이터 전송을 위해 네트워크 채널을 사용하려면 일종의 사용권을 획득해야 한다
+              MAC 주소를 기반으로 상호간에 데이터를 주고받을 수 있도록 설계되었다.
+3. X.25 : WAN 상에서 널리 쓰이는 프로토콜. 최근에는 X.25를 기반으로 하는 프레임릴레이(Frame Relay)가 나왔다
+          패킷망에서 DCE(회선 종단 장치)와 DTE(데이터 단말 장치) 사이에 이루어지는 상호 작용을 규정한 프로토콜
+4. FDDI : 광섬유 케이블을 사용하여 설계된 링 구조의 통신망. 엑세스 제어는 토큰 패싱 방법 채택
+
+*네트워크 계측 데이터 전송 단위
+물리 계층 : 비트(bit)
+데이터링크 계층 : 프레임(frame)
+네트워크 계층 : 패킷(packet)
+전송 계층 : TCP - Segment / UDP - Datagram

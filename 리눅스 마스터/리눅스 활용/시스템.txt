@@ -1,0 +1,7 @@
+1) 재부팅 시 CLI로 부팅 :
+    systemctl set-default runlevel3
+    systemctl set-default multi-user.target
+
+(2) 재부팅 시 GUI(X 윈도)로 부팅 :
+    systemctl set-default runlevel5
+    systemctl set-default graphical.target  

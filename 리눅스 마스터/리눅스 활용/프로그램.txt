@@ -1,0 +1,23 @@
+*대체 프로그램
+LibreOffice Writer     =>     워드프로세서
+LibreOffice Calc       =>     엑셀스프레드시트
+LibreOffice Impress   =>     파워포인트
+
+*GNOME
+nautilus : GNOME 데스크톱 기반의 파일 관리 프로그램
+metacity : GNOME 2.x 윈도우 매니저
+mutter : GNOME 3.x 윈도우 매니저
+
+*KDE
+konqueror : KDE기반. 웹 브라우저 및 파일 관리 시스템
+
+*프로그램
+eog: 이미지 뷰어 (eye of GNOME의 줄임말)
+ImageMagicK : 비트맵 이미지를 보여주고 생성 및 편집이 가능하도록 지원
+Gimp : 이미지 편집, 변환, 생성 프로그램
+
+totem: 동영상 플레이어
+
+evolution: 메일, 주소록, 일정 등 개인 정보 관리
+
+evince: PDF 뷰어 (영단어로 '분명히 나타내다'라는 뜻)
