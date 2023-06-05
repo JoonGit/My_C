@@ -5,3 +5,7 @@
 (2) 재부팅 시 GUI(X 윈도)로 부팅 :
     systemctl set-default runlevel5
     systemctl set-default graphical.target  
+
+데스크톱 환경에는 KDE, GNOME, LXDE, XFCE, Xfce, CE, DE, ME.. 등이 있습니다.
+
+윈도 매니저 Mutter, Kwin, Windowmaker

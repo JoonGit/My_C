@@ -43,3 +43,16 @@ block device 의 파일 시스템(file system) 유형이나 속성(LABEL, UUID �
 -f:마운트 할수있는지만 체크
 -r:읽기만 가능하게 마운트
 -w:읽기, 쓰기가 가능하게 마운트 (생략시 읽기,쓰기를 허용함)
+
+*파일시스템
+ext: 리눅스 전용 "디스크" 기반 파일 시스템
+vfat: windowNT가 지원하는 파일 시스템 중 FAT을 확장한 것, "디스크 기반"
+ntfs: 윈도우에서 사용하는 "디스크" 기반 파일 시스템
+smb: "네트워크" 파일 시스템
+
+windowXP : ntfs
+ISO : loop
+NFS : nfs
+FAT-32 : vfat
+SAMBA : smbfs
+linux-disk : ext

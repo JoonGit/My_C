@@ -1,0 +1,2 @@
+/etc/hosts 는 단순 ip 도메인 매칭이고
+/etc/resolve.conf 가 DNS 입니다.

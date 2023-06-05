@@ -2,15 +2,20 @@ Bourne Shell - sh
 - 최초의 유닉스 쉘
 - 스티브 본 제작
 
+C shlee - csh (1978)
+- 빌조이(vi도 만들었다)
+
 bash (1989)
 - 리눅스 표준 쉘
 - 브라이언 폴스
 
-C shlee - csh (1978)
-- 빌조이(vi도 만들었다)
-
 korn shell - ksh (데이비드 콘)
+POSIX와  호환되는 /bin/sh를 가능한 작제 구한 셸로 빠른 작업 수행이 특징이지만 
+hisetory 명령등은 지원하지 않는다.
 
+*순서
+sh -> csh(c처럼된 명령어) -> tcsh(csh에서 몇개 추가) -> bash(csh와 ksh 합침)
+sctb
 *쉘 명령어
 unset- 셸 변수 해제
 user=lin <지역변수에 담음
