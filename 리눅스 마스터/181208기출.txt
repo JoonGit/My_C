@@ -1,0 +1,45 @@
+fdisk 특징
+- 설정 후 partition table 업데이트 필요
+- 파티션 삭제 d
+- 파티션 추가 n
+- 파티션 변경 후 저장 w
+- 파티션 정보 확인
+
+crontab
+-e 편집
+-u 특정사용자
+
+x 윈도 환경 문서 편집기
+-gedit
+-xemacs
+-gvim
+유닉스 계열 문서 편집기
+-nano
+
+gedit = g(gnome) + edit(편집기)
+
+rpm 파일의 구성요소
+-패버릴라
+
+SSL : 세션
+TCP : 전송
+FFDI : 데이터링크
+ICMP : 네트워크
+
+프린터 큐 관련내용 출력
+BSD : lpq
+System V : lpstat 
+
+Xauthority = X 윈도 실행 시 관련 키 정보 저장하는 파일
+
+telnet 은 @를 통한 로그인이 불가능하다
+
+ASCII = ANSI
+
+SSH = ECDSA Key 암호화모듈
+
+고계산용 : 고성능의 계산능력, 슈퍼컴퓨터 구성
+고가용성 : 지속적인 베비스제공을 목석으로 부하분산 클러스토와 연동
+부하분산 : 대규모의 서비스를 제공하기 위한 목성, 웹서비스등 활용
+
+
